@@ -1,0 +1,184 @@
+/* .header {
+  display: flex;
+  justify-content: space-between;
+ 
+  color: white;
+}
+
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+
+.header-menu > li:hover {
+  cursor: pointer;
+  color: lightcoral;
+}
+
+@media screen and (max-width: 768px) {
+  .header > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+  }
+
+  .header-menu {
+    flex-direction: column;
+    background-color: lightcoral;
+    padding: 2rem;
+  }
+} */
+/* .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px; /* Adjust height as needed */
+  /* background-color: var(--appColor); */
+
+
+.logo {
+  height: 50px; /* Adjust logo size as needed */
+  margin-right: auto; /* Push logo to the left */
+  margin-left: 20px; /* Adjust left margin as needed */
+}
+
+.header-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-menu li {
+  margin: 0 10px; /* Adjust spacing between menu items */
+}
+
+.header-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px; /* Adjust font size as needed */
+  transition: color 0.3s ease;
+}
+
+.header-menu li a:hover {
+  color: lightcoral; /* Change color on hover */
+} 
+
+.header-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu li {
+  margin-right: 10px;
+}
+
+.header-menu li:last-child {
+  margin-right: 0;
+}
+
+.join-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336; /* Change this to the desired color */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.join-button:hover {
+  background-color: #d32f2f; /* Change this to the desired hover color */
+}
+
+.logo {
+  height: 40px;
+  margin-right: auto;
+}
+.header-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu li {
+  margin-right: 10px;
+}
+
+.header-menu li:last-child {
+  margin-right: 0;
+}
+
+.logo {
+  height: 40px;
+  margin-right: auto;
+}
+
+.header-menu li a {
+  text-decoration: none;
+  color: rgb(255, 123, 0);
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header-menu li a:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+
+.header-menu li a.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.header-menu li .join-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336; /* Change this to the desired color */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.header-menu li .join-button:hover {
+  background-color: #d32f2f; /* Change this to the desired hover color */
+}
+
+.header-menu li .home-link {
+  /* Add specific styling for the Home link */
+}
+
+.header-menu li .programs-link {
+  /* Add specific styling for the Programs link */
+}
+
+.header-menu li .why-us-link {
+  /* Add specific styling for the Why Us link */
+}
+
+.header-menu li .plans-link {
+  /* Add specific styling for the Plans link */
+}
+
+.header-menu li .testimonials-link {
+  /* Add specific styling for the Testimonials link */
+}
+
+

@@ -1,0 +1,41 @@
+.BMIcalculator {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  min-height: 100vh; /* Ensure the calculator takes up at least the full viewport height */
+  background-image: url('../../assets/back.jpg'); /* Set background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  padding: 20px;
+  color: white; /* Adjust text color as needed */
+  text-align: center; /* Center align the text */
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust button color as needed */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Adjust hover color as needed */
+}
+
+p {
+  margin-top: 10px;
+}

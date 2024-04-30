@@ -1,0 +1,384 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-h {
+  padding: 2rem;
+  padding-top: 0rem;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.right-h {
+  flex: 1;
+  position: relative;
+  background-color: lightcoral;
+}
+
+.the-best-ad {
+  margin-top: 4rem;
+  background: #363d42;
+  border-radius: 4rem;
+  width: fit-content;
+  padding: 20px 13px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.the-best-ad > span {
+  z-index: 2;
+}
+
+.the-best-ad > div {
+  position: absolute;
+  background: lightcoral;
+  width: 5.4rem;
+  height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+  z-index: 1;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: white;
+  text-overflow: inherit;
+}
+
+.hero-text > div:nth-of-type(3) {
+  font-size: 1rem;
+  font-weight: 00;
+  text-transform: none;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.figures {
+  display: flex;
+  gap: 2rem;
+}
+
+.figures > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.figures > div > span:nth-of-type(1) {
+  color: white;
+  font-size: 2rem;
+}
+
+.figures > div > span:nth-of-type(2) {
+  color: var(--gray);
+  text-transform: uppercase;
+}
+
+.hero-button {
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+ 
+  
+}
+
+.hero-button > :nth-child(1) {
+  color: white;
+ 
+  width: 8rem;
+}
+
+.hero-button > :nth-child(2) {
+  color: white;
+  background-color: transparent;
+  width: 8rem;
+  
+}
+
+
+
+.heart-rate {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--darkGrey);
+  width: fit-content;
+  padding: 1rem;
+  align-items: start;
+  border-radius: 5px;
+  position: absolute;
+  right: 4rem;
+  top: 7rem;
+}
+
+.heart-rate > img {
+  width: 2rem;
+}
+
+.heart-rate > :nth-child(2) {
+  color: var(--gray);
+}
+
+.heart-rate > :nth-child(3) {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.hero-image {
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+  width: 22rem;
+  
+ 
+}
+
+.hero-image-back {
+  position: absolute;
+  top: 5rem;
+  right: 15rem;
+  z-index: -1;
+  width: 15rem;
+}
+
+.calories {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  background-color: lightslategrey;
+  border-radius: 5px;
+  padding: 1rem;
+  width: fit-content;
+  min-width: 210px;
+  position: absolute;
+  top: 32rem;
+  right: 28rem;
+}
+
+.calories > img {
+  width: 3rem;
+}
+
+.calories > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calories > div > :nth-child(1) {
+  color: var(--gray);
+}
+
+.calories > div > :nth-child(2) {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.hero-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
+}
+
+/* Media Queries */
+
+/*  */
+@media screen and (max-width: 1240px) {
+  
+
+  .calories {
+    /* display: none; */
+    right: 3rem;
+  }
+}
+
+/*  */
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-blur {
+    width: 14rem;
+  }
+
+  .the-best-ad {
+    margin-top: 2px;
+    font-size: small;
+    align-self: center;
+    transform: scale(0.8);
+  }
+
+  .hero-text {
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-text > div:nth-of-type(3) {
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .hero-button {
+    justify-content: center;
+  }
+
+  .figures > div > span:nth-of-type(1) {
+    font-size: large;
+  }
+
+  .figures > div > span:nth-of-type(2) {
+    font-size: small;
+  }
+
+  .right-h {
+    position: relative;
+    background: none;
+    font-size: 20;
+    /* display: none; */
+  }/* In your Hero.css file */
+
+.hero-button {
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+  justify-content: center; /* Center the buttons */
+  margin-top: 2rem; /* Add some margin-top */
+}
+
+/* Style for the Learn More button */
+/* In your Hero.css file */
+
+.hero-button {
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+  justify-content: center; /* Center the buttons */
+  margin-top: 2rem; /* Add some margin-top */
+}
+
+/* Style for the Learn More button */
+
+/* Style for the Get Started button */
+
+
+
+/* Hover effect for both buttons */
+
+
+
+  .heart-rate {
+    left: 1rem;
+    top: 2rem;
+  }
+
+  .calories {
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+  }
+
+  .calories > img {
+    width: 2rem;
+  }
+
+  .calories > div > :nth-child(2) {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .hero-image {
+    position: relative;
+    width: 15rem;
+    left: 15rem;
+    top: 0rem;
+    align-self: center;
+  }
+
+  .hero-image-back {
+    width: 30rem;
+    left: 2rem;
+    top: 0rem;
+  }
+}
+/* Filename: App.css */
+
+/* Style for the Get Started button */
+.hero-button .btn {
+  padding: 1rem 2rem;
+  border: none;
+ 
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style for the Learn More button */
+.hero-button .btn.learn-more-btn {
+  padding: 1rem 2rem;
+ 
+  background-color: transparent;
+  
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for both buttons */
+.hero-button .btn:hover,
+.hero-button .btn.learn-more-btn:hover {
+  
+}
+
+
+/* Style for the Get Started button */
+.hero-button .btn {
+  padding: 1rem 2rem;
+  border: none;
+ 
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style for the Learn More button */
+.hero-button .btn.learn-more-btn {
+  padding: 1rem 2rem;
+ 
+  background-color: transparent;
+  color: lightcoral;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for both buttons */
+.hero-button .btn:hover,
+.hero-button .btn.learn-more-btn:hover {
+  
+}
+
