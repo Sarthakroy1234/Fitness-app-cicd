@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Fitness-app-cicd/static/css/main.609dbce1.css",
+    "main.js": "/Fitness-app-cicd/static/js/main.f9228b63.js",
+    "static/media/image2.png": "/Fitness-app-cicd/static/media/image2.fafa81dd63b3c482aaab.png",
+    "static/media/back2.jpg": "/Fitness-app-cicd/static/media/back2.4a89d3a73ccc9ead1b58.jpg",
+    "static/media/image1.png": "/Fitness-app-cicd/static/media/image1.dc41e563c9f170b695c1.png",
+    "static/media/back.jpg": "/Fitness-app-cicd/static/media/back.e220d0912d618ba86bcf.jpg",
+    "static/media/t-image3.jpg": "/Fitness-app-cicd/static/media/t-image3.49739a4defa31c2d26b5.jpg",
+    "static/media/t-image1.png": "/Fitness-app-cicd/static/media/t-image1.bf4e29ed481b339f1e12.png",
+    "static/media/t-image2.jpg": "/Fitness-app-cicd/static/media/t-image2.ced26440c445d7bf164d.jpg",
+    "static/media/image3.png": "/Fitness-app-cicd/static/media/image3.69484cb0ee7687a8c28b.png",
+    "static/media/hero_image.png": "/Fitness-app-cicd/static/media/hero_image.7099d0ff97b6aa3f4e03.png",
+    "static/media/image4.png": "/Fitness-app-cicd/static/media/image4.2c0d30b9ce1579eb1109.png",
+    "static/media/hero_image_back.png": "/Fitness-app-cicd/static/media/hero_image_back.9f54bfba33048f4ca688.png",
+    "index.html": "/Fitness-app-cicd/index.html",
+    "main.609dbce1.css.map": "/Fitness-app-cicd/static/css/main.609dbce1.css.map",
+    "main.f9228b63.js.map": "/Fitness-app-cicd/static/js/main.f9228b63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.609dbce1.css",
+    "static/js/main.f9228b63.js"
+  ]
+}
